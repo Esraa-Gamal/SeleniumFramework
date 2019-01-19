@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43580" started-at="2019-01-19T21:06:52Z" finished-at="2019-01-19T21:07:35Z">
+  <suite name="Default suite" duration-ms="11827" started-at="2019-01-19T22:31:37Z" finished-at="2019-01-19T22:31:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43580" started-at="2019-01-19T21:06:52Z" finished-at="2019-01-19T21:07:35Z">
-      <class name="workingWithElements.CheckAllBrokenLinks">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:workingWithElements.CheckAllBrokenLinks@457e2f02]" name="setUp" is-config="true" duration-ms="12728" started-at="2019-01-19T21:06:52Z" finished-at="2019-01-19T21:07:04Z">
+    <test name="Default test" duration-ms="11827" started-at="2019-01-19T22:31:37Z" finished-at="2019-01-19T22:31:49Z">
+      <class name="workingWithElements.TestUploadFile">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:workingWithElements.TestUploadFile@14acaea5]" name="setUp" is-config="true" duration-ms="9690" started-at="2019-01-19T22:31:37Z" finished-at="2019-01-19T22:31:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testALlLinks()[pri:0, instance:workingWithElements.CheckAllBrokenLinks@457e2f02]" name="testALlLinks" duration-ms="30114" started-at="2019-01-19T21:07:04Z" finished-at="2019-01-19T21:07:34Z">
+        <test-method status="PASS" signature="testFileUpload()[pri:0, instance:workingWithElements.TestUploadFile@14acaea5]" name="testFileUpload" duration-ms="1259" started-at="2019-01-19T22:31:46Z" finished-at="2019-01-19T22:31:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testALlLinks -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:workingWithElements.CheckAllBrokenLinks@457e2f02]" name="tearDown" is-config="true" duration-ms="704" started-at="2019-01-19T21:07:34Z" finished-at="2019-01-19T21:07:35Z">
+        </test-method> <!-- testFileUpload -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:workingWithElements.TestUploadFile@14acaea5]" name="tearDown" is-config="true" duration-ms="851" started-at="2019-01-19T22:31:48Z" finished-at="2019-01-19T22:31:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- workingWithElements.CheckAllBrokenLinks -->
+      </class> <!-- workingWithElements.TestUploadFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
