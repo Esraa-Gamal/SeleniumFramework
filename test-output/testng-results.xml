@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17104" started-at="2019-01-19T23:05:27Z" finished-at="2019-01-19T23:05:44Z">
+  <suite name="Default suite" duration-ms="25610" started-at="2019-02-19T20:14:33Z" finished-at="2019-02-19T20:14:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17104" started-at="2019-01-19T23:05:27Z" finished-at="2019-01-19T23:05:44Z">
-      <class name="workingWithElements.FileUploadUsingRobot">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:workingWithElements.FileUploadUsingRobot@14acaea5]" name="setUp" is-config="true" duration-ms="8191" started-at="2019-01-19T23:05:27Z" finished-at="2019-01-19T23:05:35Z">
+    <test name="Default test" duration-ms="25610" started-at="2019-02-19T20:14:33Z" finished-at="2019-02-19T20:14:59Z">
+      <class name="workingWithElements.DownloadFileWithFireFox">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:workingWithElements.DownloadFileWithFireFox@6f7fd0e6]" name="setUp" is-config="true" duration-ms="15545" started-at="2019-02-19T20:14:33Z" finished-at="2019-02-19T20:14:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="uploadFilesWithRobot()[pri:0, instance:workingWithElements.FileUploadUsingRobot@14acaea5]" name="uploadFilesWithRobot" duration-ms="8096" started-at="2019-01-19T23:05:35Z" finished-at="2019-01-19T23:05:43Z">
+        <test-method status="PASS" signature="testDownloadFireFox()[pri:0, instance:workingWithElements.DownloadFileWithFireFox@6f7fd0e6]" name="testDownloadFireFox" duration-ms="8381" started-at="2019-02-19T20:14:49Z" finished-at="2019-02-19T20:14:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- uploadFilesWithRobot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:workingWithElements.FileUploadUsingRobot@14acaea5]" name="tearDown" is-config="true" duration-ms="783" started-at="2019-01-19T23:05:43Z" finished-at="2019-01-19T23:05:44Z">
+        </test-method> <!-- testDownloadFireFox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:workingWithElements.DownloadFileWithFireFox@6f7fd0e6]" name="tearDown" is-config="true" duration-ms="1651" started-at="2019-02-19T20:14:57Z" finished-at="2019-02-19T20:14:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- workingWithElements.FileUploadUsingRobot -->
+      </class> <!-- workingWithElements.DownloadFileWithFireFox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

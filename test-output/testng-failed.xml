@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="workingWithElements.FileUploadUsingRobot">
+      <class name="workingWithElements.DownloadFileWithChrome">
         <methods>
-          <include name="tearDown"/>
-          <include name="uploadFilesWithRobot"/>
           <include name="setUp"/>
+          <include name="testDownloadFile"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- workingWithElements.FileUploadUsingRobot -->
+      </class> <!-- workingWithElements.DownloadFileWithChrome -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
